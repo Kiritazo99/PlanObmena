@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59d43be5-ec71-45e6-b3c2-f6b55b3da481" thisNode="42ed6101-f850-4c7f-95ba-c5eafbb862ac">
+  <producedTypes>
+    <objectType typeId="8ad3eec5-586b-437f-9341-02e18813f6a2" valueTypeId="ced353a5-6ca4-4bd6-96d2-b8e6e8467da6"/>
+    <refType typeId="04e342ad-eabb-4bb8-814d-f7d1d561d2e4" valueTypeId="4905a138-9fce-456b-acd2-5869a9cc0111"/>
+    <selectionType typeId="87db2214-2639-403a-ab25-bb47c1a0b34a" valueTypeId="d9bc0125-9444-4370-90c5-bc6081b5d607"/>
+    <listType typeId="fd5323cc-942f-4cb1-9954-c983460f803e" valueTypeId="55135777-addc-4d1e-8976-2dbc4c1c3e7d"/>
+    <managerType typeId="f39cabe2-4d5b-46d6-b081-324c54d63777" valueTypeId="06cc1f0d-042c-48d0-9edd-514d9860401e"/>
+  </producedTypes>
+  <name>ОбменМеждуСистемамиБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен между системами бронирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменМеждуСистемамиБронирования.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменМеждуСистемамиБронирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ОбменМеждуСистемамиБронирования</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.Бронирования</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ExchangePlan.ОбменМеждуСистемамиБронирования.Form.ФормаСписка</defaultListForm>
+  <forms uuid="d3d2cb55-4b01-44e6-8388-42d972146985">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae7c4e02-204d-4e71-86ac-833285cbf864">
+  <producedTypes>
+    <objectType typeId="21cf2b20-7ff6-4bfb-9679-d5c74ac71fdf" valueTypeId="8a7c355a-3c12-4839-91f9-402bf8c6966d"/>
+    <refType typeId="9d655f20-0871-4841-b9de-2ba966bc53e2" valueTypeId="c8b969e2-6c08-448a-a5d8-c3dc4cac4c57"/>
+    <selectionType typeId="6a3c69e6-5b7f-4c8f-bdb4-40134a6711b1" valueTypeId="d8357201-54b6-4d41-a3eb-330fe22bf988"/>
+    <listType typeId="062e2b75-b07b-4470-83c5-03aa520f977b" valueTypeId="7236606f-a5f9-466e-8961-d56c4e22b4a7"/>
+    <managerType typeId="6023d9b8-c7a4-450e-903e-3ba753bba52f" valueTypeId="888ad742-0668-4477-b86a-b29c86d1de6b"/>
+  </producedTypes>
+  <name>Бронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Бронирования.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бронирования</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8ed7d753-9800-4504-a580-684d3c906f29">
+    <name>ТипНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНомера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a43782f-f074-4807-b6b1-7bb6b2acd940">
+    <name>ДатаЗаезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71f707b9-11a1-4247-98e8-e3b44760b29e">
+    <name>ДатаВыезда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выезда</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e9f16d9f-0522-4727-be4c-d38c581ed789">
+    <name>ЗавтракВключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завтрак включен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="438b5464-ad10-4330-95fb-a936ceea462a">
+    <producedTypes>
+      <objectType typeId="09cbcd4f-9a60-4937-a932-79ea94036376" valueTypeId="4fd555ee-ebdf-4407-808f-7dfe0e28f2d7"/>
+      <rowType typeId="77ed489a-e702-45c1-8cb0-732e2c7ab154" valueTypeId="e75e79e7-5a6a-49c6-a704-9183404d0c78"/>
+    </producedTypes>
+    <name>Постояльцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постояльцы</value>
+    </synonym>
+    <attributes uuid="388472b7-7257-47d1-b8e3-2b8658a64aba">
+      <name>Постоялец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Постоялец</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Постоялец</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

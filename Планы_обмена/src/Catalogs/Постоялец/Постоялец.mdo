@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad61ff97-7ef4-4416-a531-8916f14fa12f">
+  <producedTypes>
+    <objectType typeId="1a68e164-cbd1-434b-b1ec-7db3c754246b" valueTypeId="11df8bc5-b80b-428f-b0e9-0c8c75958be7"/>
+    <refType typeId="06aedb2d-a8a7-4cc6-b3bb-ca5b7178e857" valueTypeId="7e022818-42eb-499c-9d1b-d1ec09f04f28"/>
+    <selectionType typeId="6ed33804-96d8-45e0-849d-afbbd338413d" valueTypeId="a29fe99f-d562-4a04-98be-252451461bb0"/>
+    <listType typeId="004227f0-9410-4fcd-a051-f5747b883d86" valueTypeId="3ad6d6ea-7875-47fe-8b56-b8af8ef2e36a"/>
+    <managerType typeId="0abc5f97-a56e-4786-894d-83d73449a9c8" valueTypeId="6711f1f2-e81c-4b8b-9acd-2e29fb6bbe80"/>
+  </producedTypes>
+  <name>Постоялец</name>
+  <synonym>
+    <key>ru</key>
+    <value>Постоялец</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Постоялец.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Постоялец.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Постоялец</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5c79726f-8789-4386-8a25-a590d058abc9">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c58a7fb-bbe6-49a9-bab9-7268007d4447">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
